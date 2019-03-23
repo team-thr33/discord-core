@@ -5,15 +5,11 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordCore", "DiscordCore\DiscordCore.csproj", "{E250EC0F-5F6C-4F05-828B-44D46444ADE6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordCore.App", "DiscordCore.App\DiscordCore.App.csproj", "{366696A0-FE50-4E5A-8301-0997A514DAE6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordCore.Configuration", "DiscordCore.Configuration\DiscordCore.Configuration.csproj", "{8B928A02-514E-4395-B145-0A7816D209B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordCore.Plugin.Example", "DiscordCore.Plugin.Example\DiscordCore.Plugin.Example.csproj", "{37660A3A-4DDB-49E4-AB74-D58E4DE4AC7C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordCore.Tests", "DiscordCore.Tests\DiscordCore.Tests.csproj", "{EC6C875B-EF4B-43FF-B378-C164DC2F8A2C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordCore.Interfaces", "DiscordCore.Interfaces\DiscordCore.Interfaces.csproj", "{E614BF75-D568-4CC7-801C-F9EFAF4BBA42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +21,6 @@ Global
 		{E250EC0F-5F6C-4F05-828B-44D46444ADE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E250EC0F-5F6C-4F05-828B-44D46444ADE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E250EC0F-5F6C-4F05-828B-44D46444ADE6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{366696A0-FE50-4E5A-8301-0997A514DAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{366696A0-FE50-4E5A-8301-0997A514DAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{366696A0-FE50-4E5A-8301-0997A514DAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{366696A0-FE50-4E5A-8301-0997A514DAE6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B928A02-514E-4395-B145-0A7816D209B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B928A02-514E-4395-B145-0A7816D209B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B928A02-514E-4395-B145-0A7816D209B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,10 +33,6 @@ Global
 		{EC6C875B-EF4B-43FF-B378-C164DC2F8A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC6C875B-EF4B-43FF-B378-C164DC2F8A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC6C875B-EF4B-43FF-B378-C164DC2F8A2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E614BF75-D568-4CC7-801C-F9EFAF4BBA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E614BF75-D568-4CC7-801C-F9EFAF4BBA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E614BF75-D568-4CC7-801C-F9EFAF4BBA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E614BF75-D568-4CC7-801C-F9EFAF4BBA42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
