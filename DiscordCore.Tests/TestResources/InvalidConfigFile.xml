@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<InvalidName>
+  <InvalidPlugin>
+    <Name>CorePlugin</Name>
+    <DLLFile>DiscordCoreInfoPlugin.dll</DLLFile>
+    <Enabled>true</Enabled>
+  </InvalidPlugin>
+  <InvalidPlugin>
+    <Name>CorePlugin</Name>
+    <DLLFile>DiscordCoreInfoPlugin.dll</DLLFile>
+    <Enabled>true</Enabled>
+  </InvalidPlugin>
+</InvalidName>

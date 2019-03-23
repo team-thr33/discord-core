@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiscordCore.Interfaces\DiscordCore.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if not exist &quot;$(SolutionDir)/../Build/Example/&quot; mkdir &quot;$(SolutionDir)/../Build/Example/&quot;&#xD;&#xA;copy /Y &quot;$(ProjectDir)/$(OutDir)/*.dll&quot; &quot;$(SolutionDir)/../Build/Example/&quot;" />
+  </Target>
+
+</Project>
